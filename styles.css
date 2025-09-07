@@ -161,7 +161,7 @@ h2 {
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     transition: transform 0.3s;
 }
 
@@ -172,6 +172,7 @@ h2 {
 .skill-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #2563eb;
 }
 
 .skill-card h3 {
@@ -260,10 +261,13 @@ h2 {
     border-radius: 10px;
 }
 
-.contact-item i {
-    font-size: 2rem;
+.contact-item a {
     color: #2563eb;
-    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
